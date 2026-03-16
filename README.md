@@ -109,7 +109,7 @@ Displays a welcome interface after successful login with navigation and action b
 
 ### Dashboard Page
 
-![Dashboard](https://drive.google.com/file/d/1b_AoIcidW0qa6dQNRduRMSqQwtRQ2-b8/view?usp=drive_link)
+![Dashboard](screenshots/dashboard.png.png)
 
 ---
 
