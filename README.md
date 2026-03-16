@@ -93,19 +93,19 @@ Displays a welcome interface after successful login with navigation and action b
 
 ### Login Page
 
-![Login](https://drive.google.com/file/d/1xI5ELbpMgMR2y6B_ngvSf1Dh0xTidHcd/view?usp=drive_link)
+![Login](screenshots/login.png.png)
 
 ### Registration Page
 
-![Register](https://drive.google.com/file/d/1bWlUYP5YU5InoS9IFI3lhcDLUgQ02zxR/view?usp=drive_link)
+![Register](screenshots/register.png.png)
 
 ### Forgot Password Page
 
-![Forgot Password](https://drive.google.com/file/d/1KEz4ogJYCCcX_-JYVx8Fjd-vn3jDDTas/view?usp=drive_link)
+![Forgot Password](screenshots/forgot-password.png.png
 
 ### Reset Password Page
 
-![Reset Password](https://drive.google.com/file/d/16sakPbUYLitZYJyYrTbO-lAOZ5R1yKxs/view?usp=drive_link)
+![Reset Password](screenshots/reset-password.png.png)
 
 ### Dashboard Page
 
