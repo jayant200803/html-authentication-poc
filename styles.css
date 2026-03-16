@@ -1,0 +1,123 @@
+/* =========================================================
+   GLOBAL STYLES
+   ========================================================= */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+    margin: 0;
+
+    /* Improved gradient background */
+    background: radial-gradient(circle at top, #4f46e5, #2563eb, #7c3aed);
+
+    display: flex;
+    flex-direction: column;
+}
+
+/* =========================================================
+   CARD STYLING
+   ========================================================= */
+
+.auth-card {
+    max-width: 420px;
+    margin: auto;
+    border-radius: 14px;
+    border: none;
+    box-shadow: 0 12px 35px rgba(0,0,0,0.2);
+
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.auth-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 18px 45px rgba(0,0,0,0.3);
+}
+
+/* =========================================================
+   FORM CONTROLS
+   ========================================================= */
+
+.form-control {
+    border-radius: 8px;
+}
+
+.form-control:focus {
+    border-color: #6366f1;
+    box-shadow: 0 0 0 0.2rem rgba(99,102,241,0.25);
+}
+
+/* =========================================================
+   BUTTON STYLING
+   ========================================================= */
+
+.btn-custom {
+    border-radius: 8px;
+    transition: all 0.25s ease;
+}
+
+.btn-custom:hover {
+    transform: translateY(-2px);
+}
+
+/* =========================================================
+   NAVBAR
+   ========================================================= */
+
+.navbar-custom {
+    background-color: #1e293b;
+}
+
+.navbar-brand {
+    font-weight: 600;
+}
+
+/* =========================================================
+   DASHBOARD CARDS
+   ========================================================= */
+
+.dashboard-card {
+    border-radius: 14px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+.stat-card {
+    border-radius: 12px;
+    padding: 20px;
+    color: white;
+}
+
+.stat-blue {
+    background: linear-gradient(135deg,#2563eb,#3b82f6);
+}
+
+.stat-purple {
+    background: linear-gradient(135deg,#7c3aed,#9333ea);
+}
+
+.stat-dark {
+    background: linear-gradient(135deg,#334155,#1e293b);
+}
+
+/* =========================================================
+   LINKS
+   ========================================================= */
+
+.auth-links a {
+    text-decoration: none;
+}
+
+.auth-links a:hover {
+    text-decoration: underline;
+}
+
+/* =========================================================
+   RESPONSIVE
+   ========================================================= */
+
+@media (max-width: 576px) {
+
+    .auth-card {
+        margin: 20px;
+    }
+
+}

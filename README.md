@@ -1,78 +1,147 @@
-# HTML Authentication System (POC)
+# Authentication System (Bootstrap Styled)
 
 ## Overview
 
-This project is a simple Proof-of-Concept authentication flow implemented using only HTML.
-It demonstrates page navigation between common authentication screens without using CSS, JavaScript, or any backend technology.
+This project is a **Bootstrap-styled authentication system UI** created as an extension of the previous HTML-only assignment.
+The application demonstrates common authentication workflows including **Login, Registration, Password Recovery, and Dashboard access**.
 
-The goal of the project is to understand basic web page structure and hyperlink-based navigation.
+The goal of this project is to transform a basic HTML authentication interface into a **professional, responsive, and visually appealing web application** using **Bootstrap 5 and custom CSS**.
 
----
+This project focuses on:
 
-## Pages Included
+* UI design
+* Responsive layout
+* Clean code structure
+* Proper commenting and readability
 
-* **Home (index.html)** – Main navigation page containing links to all modules
-* **Login (login.html)** – User login form
-* **Register (register.html)** – New user registration form
-* **Forgot Password (forgot-password.html)** – Request password reset
-* **Reset Password (reset-password.html)** – Create a new password
-* **Dashboard (dashboard.html)** – Landing page after login
+> Note: This project simulates authentication flow using HTML navigation. It does **not include backend authentication or database functionality.**
 
 ---
 
-## Navigation Flow
+## Features
 
-### Login Flow
-
-Home → Login → Dashboard → Logout → Login
-
-### Registration Flow
-
-Home → Register → Login
-
-### Password Recovery Flow
-
-Home → Forgot Password → Reset Password → Login
+* Login interface with Bootstrap form styling
+* User registration page
+* Forgot password request page
+* Password reset page
+* Dashboard interface with navigation bar
+* Responsive layout for different screen sizes
+* Custom styling using external CSS
+* Professional UI with Bootstrap components
 
 ---
 
 ## Technologies Used
 
-* HTML5 only
-* Anchor tag navigation
-* Form redirection using action attribute
+* **HTML5**
+* **Bootstrap 5**
+* **Bootstrap Icons**
+* **Custom CSS**
+* **Google Fonts (Poppins)**
 
-No CSS or JavaScript is used in this project.
+---
+
+## Project Structure
+
+```
+html-authentication-poc
+│
+├── index.html              # Login Page
+├── register.html           # Registration Page
+├── forgot-password.html    # Forgot Password Page
+├── reset-password.html     # Reset Password Page
+├── dashboard.html          # Dashboard Page
+│
+├── styles.css              # Custom styling
+├── README.md               # Project documentation
+│
+└── screenshots
+      ├── login.png
+      ├── register.png
+      ├── forgot-password.png
+      ├── reset-password.png
+      └── dashboard.png
+```
+
+---
+
+## Page Descriptions
+
+### Login Page (`index.html`)
+
+Allows existing users to enter their credentials and navigate to the dashboard.
+
+### Registration Page (`register.html`)
+
+Allows new users to create an account by providing personal information.
+
+### Forgot Password Page (`forgot-password.html`)
+
+Allows users to request a password reset link using their registered email.
+
+### Reset Password Page (`reset-password.html`)
+
+Allows users to create a new password after requesting a reset.
+
+### Dashboard Page (`dashboard.html`)
+
+Displays a welcome interface after successful login with navigation and action buttons.
+
+---
+
+## Screenshots
+
+### Login Page
+
+![Login](https://drive.google.com/file/d/1xI5ELbpMgMR2y6B_ngvSf1Dh0xTidHcd/view?usp=drive_link)
+
+### Registration Page
+
+![Register](https://drive.google.com/file/d/1bWlUYP5YU5InoS9IFI3lhcDLUgQ02zxR/view?usp=drive_link)
+
+### Forgot Password Page
+
+![Forgot Password](https://drive.google.com/file/d/1KEz4ogJYCCcX_-JYVx8Fjd-vn3jDDTas/view?usp=drive_link)
+
+### Reset Password Page
+
+![Reset Password](https://drive.google.com/file/d/16sakPbUYLitZYJyYrTbO-lAOZ5R1yKxs/view?usp=drive_link)
+
+### Dashboard Page
+
+![Dashboard](https://drive.google.com/file/d/1b_AoIcidW0qa6dQNRduRMSqQwtRQ2-b8/view?usp=drive_link)
 
 ---
 
 ## How to Run the Project
 
-### Method 1 (Recommended – VS Code Live Server)
+1. Clone the repository:
 
-1. Open the project folder in VS Code
-2. Install the **Live Server** extension
-3. Right click `index.html`
-4. Click **Open with Live Server**
+```
+git clone https://github.com/YOUR-USERNAME/html-authentication-poc
+```
 
-### Method 2 (Direct Browser)
+2. Navigate to the project folder.
 
-Open `index.html` directly in any web browser.
+3. Open **index.html** in any web browser.
+
+Alternatively, you can run the project using **VS Code Live Server extension** for easier navigation.
 
 ---
 
-## Project Purpose
+## Responsive Design
 
-This project is created for academic demonstration of:
+The application is designed to work across different screen sizes:
 
-* HTML page structure
-* Hyperlink navigation
-* Form redirection behavior
+* Desktop (1920px and above)
+* Laptop (1366px – 1920px)
+* Tablet (768px – 1024px)
+* Mobile (320px – 767px)
 
-It does not perform real authentication or data storage.
+Bootstrap's grid system and utility classes ensure proper layout adjustments.
 
 ---
 
 ## Author
 
-Student Assignment Submission
+Assignment submission for **HTML & Bootstrap Authentication System UI**.
