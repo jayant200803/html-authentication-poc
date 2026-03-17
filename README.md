@@ -101,7 +101,7 @@ Displays a welcome interface after successful login with navigation and action b
 
 ### Forgot Password Page
 
-![Forgot Password](screenshots/forgot-password.png.png
+![Forgot Password](screenshots/forgot-password.png.png)
 
 ### Reset Password Page
 
